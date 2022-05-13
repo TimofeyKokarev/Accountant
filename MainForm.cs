@@ -46,13 +46,13 @@ namespace Кокарев_формы
         private void btn1_Click(object sender, EventArgs e)
         {
             MoveSidePanel(btn1);//Использование метода MoveSidePanel для кнопки btn1
-            OpenChildForm(new forms.function1(),sender);//Использование метода OpenChildForm, где форма берётся из папки forms
+            OpenChildForm(new LinearMain(),sender);//Использование метода OpenChildForm, где форма берётся из папки forms
         }
 
         private void btn2_Click(object sender, EventArgs e)
         {
             MoveSidePanel(btn2);//Использование метода MoveSidePanel для кнопки btn2
-            OpenChildForm(new forms.function2(), sender);//Использование метода OpenChildForm, где форма берётся из папки forms
+            OpenChildForm(new BranchingMain(), sender);//Использование метода OpenChildForm, где форма берётся из папки forms
         }
 
         private void btn3_Click(object sender, EventArgs e)

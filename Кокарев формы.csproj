@@ -46,11 +46,71 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="forms\LinearMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="forms\LinearMain.Designer.cs">
+      <DependentUpon>LinearMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\BranchingMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\BranchingMain.Designer.cs">
+      <DependentUpon>BranchingMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\branching4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\branching4.Designer.cs">
+      <DependentUpon>branching4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\branching2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\branching2.Designer.cs">
+      <DependentUpon>branching2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\branching1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\branching1.Designer.cs">
+      <DependentUpon>branching1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\branching3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\branching3.Designer.cs">
+      <DependentUpon>branching3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\branching5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\branching5.Designer.cs">
+      <DependentUpon>branching5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\branching6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\branching6.Designer.cs">
+      <DependentUpon>branching6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\branching7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\branching7.Designer.cs">
+      <DependentUpon>branching7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\branching8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\branching8.Designer.cs">
+      <DependentUpon>branching8.cs</DependentUpon>
     </Compile>
     <Compile Include="forms\function1.cs">
       <SubType>Form</SubType>
@@ -84,8 +144,26 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="forms\branching2.resx">
+      <DependentUpon>branching2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\branching3.resx">
+      <DependentUpon>branching3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\LinearMain.asa-TZ.resx">
+      <DependentUpon>LinearMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\LinearMain.resx">
+      <DependentUpon>LinearMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\BranchingMain.resx">
+      <DependentUpon>BranchingMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\branching1.resx">
+      <DependentUpon>branching1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\function1.resx">
       <DependentUpon>function1.cs</DependentUpon>

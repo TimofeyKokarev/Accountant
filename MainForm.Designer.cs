@@ -36,14 +36,14 @@
             this.btn3 = new System.Windows.Forms.Button();
             this.btn2 = new System.Windows.Forms.Button();
             this.btn1 = new System.Windows.Forms.Button();
-            this.LogoPanel = new System.Windows.Forms.Panel();
             this.MainDataWindow = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.DesktopWindow = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.LogoPanel = new System.Windows.Forms.Panel();
             this.ControlMenu.SuspendLayout();
             this.MainDataWindow.SuspendLayout();
-            this.panel1.SuspendLayout();
+            this.DesktopWindow.SuspendLayout();
             this.SuspendLayout();
             // 
             // ControlMenu
@@ -59,7 +59,7 @@
             this.ControlMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.ControlMenu.Location = new System.Drawing.Point(0, 0);
             this.ControlMenu.Name = "ControlMenu";
-            this.ControlMenu.Size = new System.Drawing.Size(250, 481);
+            this.ControlMenu.Size = new System.Drawing.Size(250, 383);
             this.ControlMenu.TabIndex = 0;
             // 
             // SidePanel
@@ -134,7 +134,7 @@
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(250, 60);
             this.btn2.TabIndex = 2;
-            this.btn2.Text = "2 функция";
+            this.btn2.Text = "Ветвление";
             this.btn2.UseVisualStyleBackColor = true;
             this.btn2.Click += new System.EventHandler(this.btn2_Click);
             // 
@@ -151,50 +151,28 @@
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(250, 60);
             this.btn1.TabIndex = 1;
-            this.btn1.Text = "1 функция";
+            this.btn1.Text = "Линия";
             this.btn1.UseVisualStyleBackColor = true;
             this.btn1.Click += new System.EventHandler(this.btn1_Click);
-            // 
-            // LogoPanel
-            // 
-            this.LogoPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
-            this.LogoPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("LogoPanel.BackgroundImage")));
-            this.LogoPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.LogoPanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.LogoPanel.Location = new System.Drawing.Point(0, 0);
-            this.LogoPanel.Name = "LogoPanel";
-            this.LogoPanel.Size = new System.Drawing.Size(250, 90);
-            this.LogoPanel.TabIndex = 0;
             // 
             // MainDataWindow
             // 
             this.MainDataWindow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
-            this.MainDataWindow.Controls.Add(this.panel1);
+            this.MainDataWindow.Controls.Add(this.DesktopWindow);
             this.MainDataWindow.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MainDataWindow.Location = new System.Drawing.Point(250, 0);
             this.MainDataWindow.Name = "MainDataWindow";
-            this.MainDataWindow.Size = new System.Drawing.Size(734, 481);
+            this.MainDataWindow.Size = new System.Drawing.Size(734, 383);
             this.MainDataWindow.TabIndex = 1;
             // 
-            // panel1
+            // DesktopWindow
             // 
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1014, 681);
-            this.panel1.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Trebuchet MS", 32.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(31, 147);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(691, 54);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Для начала работы программы,";
+            this.DesktopWindow.Controls.Add(this.label2);
+            this.DesktopWindow.Controls.Add(this.label1);
+            this.DesktopWindow.Location = new System.Drawing.Point(3, 12);
+            this.DesktopWindow.Name = "DesktopWindow";
+            this.DesktopWindow.Size = new System.Drawing.Size(902, 387);
+            this.DesktopWindow.TabIndex = 1;
             // 
             // label2
             // 
@@ -207,12 +185,34 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "выберите номер";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Trebuchet MS", 32.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(31, 147);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(691, 54);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Для начала работы программы,";
+            // 
+            // LogoPanel
+            // 
+            this.LogoPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
+            this.LogoPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("LogoPanel.BackgroundImage")));
+            this.LogoPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.LogoPanel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.LogoPanel.Location = new System.Drawing.Point(0, 0);
+            this.LogoPanel.Name = "LogoPanel";
+            this.LogoPanel.Size = new System.Drawing.Size(250, 90);
+            this.LogoPanel.TabIndex = 0;
+            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(984, 481);
+            this.ClientSize = new System.Drawing.Size(984, 383);
             this.Controls.Add(this.MainDataWindow);
             this.Controls.Add(this.ControlMenu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
@@ -224,8 +224,8 @@
             this.TopMost = true;
             this.ControlMenu.ResumeLayout(false);
             this.MainDataWindow.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.DesktopWindow.ResumeLayout(false);
+            this.DesktopWindow.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -241,7 +241,7 @@
         private System.Windows.Forms.Button btn2;
         private System.Windows.Forms.Panel SidePanel;
         private System.Windows.Forms.Panel MainDataWindow;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel DesktopWindow;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
     }
