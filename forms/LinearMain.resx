@@ -117,111 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;SidePanel.Name" xml:space="preserve">
-    <value>SidePanel</value>
-  </data>
-  <data name="&gt;&gt;SidePanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SidePanel.Parent" xml:space="preserve">
-    <value>ControlMenu</value>
-  </data>
-  <data name="&gt;&gt;SidePanel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btn5.Name" xml:space="preserve">
-    <value>btn5</value>
-  </data>
-  <data name="&gt;&gt;btn5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btn5.Parent" xml:space="preserve">
-    <value>ControlMenu</value>
-  </data>
-  <data name="&gt;&gt;btn5.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;btn4.Name" xml:space="preserve">
-    <value>btn4</value>
-  </data>
-  <data name="&gt;&gt;btn4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btn4.Parent" xml:space="preserve">
-    <value>ControlMenu</value>
-  </data>
-  <data name="&gt;&gt;btn4.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;btn3.Name" xml:space="preserve">
-    <value>btn3</value>
-  </data>
-  <data name="&gt;&gt;btn3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btn3.Parent" xml:space="preserve">
-    <value>ControlMenu</value>
-  </data>
-  <data name="&gt;&gt;btn3.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;btn2.Name" xml:space="preserve">
-    <value>btn2</value>
-  </data>
-  <data name="&gt;&gt;btn2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btn2.Parent" xml:space="preserve">
-    <value>ControlMenu</value>
-  </data>
-  <data name="&gt;&gt;btn2.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;btn1.Name" xml:space="preserve">
-    <value>btn1</value>
-  </data>
-  <data name="&gt;&gt;btn1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btn1.Parent" xml:space="preserve">
-    <value>ControlMenu</value>
-  </data>
-  <data name="&gt;&gt;btn1.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ControlMenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="ControlMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="ControlMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 344</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ControlMenu.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;ControlMenu.Name" xml:space="preserve">
-    <value>ControlMenu</value>
-  </data>
-  <data name="&gt;&gt;ControlMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ControlMenu.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ControlMenu.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="SidePanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>-6, -3</value>
   </data>
   <data name="SidePanel.Size" type="System.Drawing.Size, System.Drawing">
     <value>17, 60</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="SidePanel.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
@@ -237,6 +140,7 @@
   <data name="&gt;&gt;SidePanel.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btn5.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
@@ -259,7 +163,7 @@
     <value>5</value>
   </data>
   <data name="btn5.Text" xml:space="preserve">
-    <value>5 функция</value>
+    <value>№5 функция</value>
   </data>
   <data name="&gt;&gt;btn5.Name" xml:space="preserve">
     <value>btn5</value>
@@ -295,7 +199,7 @@
     <value>4</value>
   </data>
   <data name="btn4.Text" xml:space="preserve">
-    <value>4 функция</value>
+    <value>№4 функция</value>
   </data>
   <data name="&gt;&gt;btn4.Name" xml:space="preserve">
     <value>btn4</value>
@@ -331,7 +235,7 @@
     <value>3</value>
   </data>
   <data name="btn3.Text" xml:space="preserve">
-    <value>3 функция</value>
+    <value>№3 функция</value>
   </data>
   <data name="&gt;&gt;btn3.Name" xml:space="preserve">
     <value>btn3</value>
@@ -367,7 +271,7 @@
     <value>2</value>
   </data>
   <data name="btn2.Text" xml:space="preserve">
-    <value>2 функция</value>
+    <value>№2 функция</value>
   </data>
   <data name="&gt;&gt;btn2.Name" xml:space="preserve">
     <value>btn2</value>
@@ -403,7 +307,7 @@
     <value>1</value>
   </data>
   <data name="btn1.Text" xml:space="preserve">
-    <value>1 функция</value>
+    <value>№1 функция</value>
   </data>
   <data name="&gt;&gt;btn1.Name" xml:space="preserve">
     <value>btn1</value>
@@ -416,6 +320,30 @@
   </data>
   <data name="&gt;&gt;btn1.ZOrder" xml:space="preserve">
     <value>5</value>
+  </data>
+  <data name="ControlMenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="ControlMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ControlMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 344</value>
+  </data>
+  <data name="ControlMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ControlMenu.Name" xml:space="preserve">
+    <value>ControlMenu</value>
+  </data>
+  <data name="&gt;&gt;ControlMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ControlMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ControlMenu.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="MainDataWindow.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>

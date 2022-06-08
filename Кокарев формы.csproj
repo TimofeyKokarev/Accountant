@@ -46,29 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="forms\LinearMain.cs">
+    <Compile Include="forms\branching1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\LinearMain.Designer.cs">
-      <DependentUpon>LinearMain.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MainForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MainForm.Designer.cs">
-      <DependentUpon>MainForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="forms\BranchingMain.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="forms\BranchingMain.Designer.cs">
-      <DependentUpon>BranchingMain.cs</DependentUpon>
-    </Compile>
-    <Compile Include="forms\branching4.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="forms\branching4.Designer.cs">
-      <DependentUpon>branching4.cs</DependentUpon>
+    <Compile Include="forms\branching1.Designer.cs">
+      <DependentUpon>branching1.cs</DependentUpon>
     </Compile>
     <Compile Include="forms\branching2.cs">
       <SubType>Form</SubType>
@@ -76,17 +58,17 @@
     <Compile Include="forms\branching2.Designer.cs">
       <DependentUpon>branching2.cs</DependentUpon>
     </Compile>
-    <Compile Include="forms\branching1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="forms\branching1.Designer.cs">
-      <DependentUpon>branching1.cs</DependentUpon>
-    </Compile>
     <Compile Include="forms\branching3.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="forms\branching3.Designer.cs">
       <DependentUpon>branching3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\branching4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\branching4.Designer.cs">
+      <DependentUpon>branching4.cs</DependentUpon>
     </Compile>
     <Compile Include="forms\branching5.cs">
       <SubType>Form</SubType>
@@ -111,6 +93,60 @@
     </Compile>
     <Compile Include="forms\branching8.Designer.cs">
       <DependentUpon>branching8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\BranchingMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\BranchingMain.Designer.cs">
+      <DependentUpon>BranchingMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\cycles2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\cycles2.Designer.cs">
+      <DependentUpon>cycles2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\cycles3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\cycles3.Designer.cs">
+      <DependentUpon>cycles3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\cycles4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\cycles4.Designer.cs">
+      <DependentUpon>cycles4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\cycles5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\cycles5.Designer.cs">
+      <DependentUpon>cycles5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\cycles6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\cycles6.Designer.cs">
+      <DependentUpon>cycles6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\cycles7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\cycles7.Designer.cs">
+      <DependentUpon>cycles7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\cycles8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\cycles8.Designer.cs">
+      <DependentUpon>cycles8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\CyclesMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\CyclesMain.Designer.cs">
+      <DependentUpon>CyclesMain.cs</DependentUpon>
     </Compile>
     <Compile Include="forms\function1.cs">
       <SubType>Form</SubType>
@@ -142,28 +178,112 @@
     <Compile Include="forms\function5.Designer.cs">
       <DependentUpon>function5.cs</DependentUpon>
     </Compile>
+    <Compile Include="forms\LinearMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\LinearMain.Designer.cs">
+      <DependentUpon>LinearMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\switchcase1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\switchcase1.Designer.cs">
+      <DependentUpon>switchcase1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\switchcase2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\switchcase2.Designer.cs">
+      <DependentUpon>switchcase2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\switchcase3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\switchcase3.Designer.cs">
+      <DependentUpon>switchcase3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\switchcase4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\switchcase4.Designer.cs">
+      <DependentUpon>switchcase4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\switchcase5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\switchcase5.Designer.cs">
+      <DependentUpon>switchcase5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\cycles1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\cycles1.Designer.cs">
+      <DependentUpon>cycles1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="forms\SwitchCaseMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\SwitchCaseMain.Designer.cs">
+      <DependentUpon>SwitchCaseMain.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="forms\branching1.resx">
+      <DependentUpon>branching1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="forms\branching2.resx">
       <DependentUpon>branching2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\branching3.resx">
       <DependentUpon>branching3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\LinearMain.asa-TZ.resx">
-      <DependentUpon>LinearMain.cs</DependentUpon>
+    <EmbeddedResource Include="forms\branching4.resx">
+      <DependentUpon>branching4.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\LinearMain.resx">
-      <DependentUpon>LinearMain.cs</DependentUpon>
+    <EmbeddedResource Include="forms\branching5.resx">
+      <DependentUpon>branching5.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainForm.resx">
-      <DependentUpon>MainForm.cs</DependentUpon>
+    <EmbeddedResource Include="forms\branching6.resx">
+      <DependentUpon>branching6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\branching7.resx">
+      <DependentUpon>branching7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\branching8.resx">
+      <DependentUpon>branching8.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\BranchingMain.resx">
       <DependentUpon>BranchingMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\branching1.resx">
-      <DependentUpon>branching1.cs</DependentUpon>
+    <EmbeddedResource Include="forms\cycles1.resx">
+      <DependentUpon>cycles1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\cycles2.resx">
+      <DependentUpon>cycles2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\cycles3.resx">
+      <DependentUpon>cycles3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\cycles4.resx">
+      <DependentUpon>cycles4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\cycles5.resx">
+      <DependentUpon>cycles5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\cycles6.resx">
+      <DependentUpon>cycles6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\cycles8.resx">
+      <DependentUpon>cycles8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\CyclesMain.resx">
+      <DependentUpon>CyclesMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\function1.resx">
       <DependentUpon>function1.cs</DependentUpon>
@@ -180,10 +300,37 @@
     <EmbeddedResource Include="forms\function5.resx">
       <DependentUpon>function5.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="forms\LinearMain.asa-TZ.resx">
+      <DependentUpon>LinearMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\LinearMain.resx">
+      <DependentUpon>LinearMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\switchcase1.resx">
+      <DependentUpon>switchcase1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\switchcase2.resx">
+      <DependentUpon>switchcase2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\switchcase3.resx">
+      <DependentUpon>switchcase3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\switchcase4.resx">
+      <DependentUpon>switchcase4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\switchcase5.resx">
+      <DependentUpon>switchcase5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\SwitchCaseMain.resx">
+      <DependentUpon>SwitchCaseMain.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -203,15 +350,17 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Content Include="img\1function.png" />
     <Content Include="img\2function.png" />
     <Content Include="img\3function.png" />
     <Content Include="img\4function.png" />
     <Content Include="img\5function.png" />
+    <Content Include="img\br3.png" />
+    <Content Include="img\br4.png" />
     <Content Include="img\mainlogo.ico" />
     <Content Include="img\secondarylogo.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

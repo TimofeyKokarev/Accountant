@@ -31,16 +31,15 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainMenu));
             this.ControlMenu = new System.Windows.Forms.Panel();
             this.SidePanel = new System.Windows.Forms.Panel();
-            this.btn5 = new System.Windows.Forms.Button();
             this.btn4 = new System.Windows.Forms.Button();
             this.btn3 = new System.Windows.Forms.Button();
             this.btn2 = new System.Windows.Forms.Button();
             this.btn1 = new System.Windows.Forms.Button();
+            this.LogoPanel = new System.Windows.Forms.Panel();
             this.MainDataWindow = new System.Windows.Forms.Panel();
             this.DesktopWindow = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.LogoPanel = new System.Windows.Forms.Panel();
             this.ControlMenu.SuspendLayout();
             this.MainDataWindow.SuspendLayout();
             this.DesktopWindow.SuspendLayout();
@@ -50,7 +49,6 @@
             // 
             this.ControlMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
             this.ControlMenu.Controls.Add(this.SidePanel);
-            this.ControlMenu.Controls.Add(this.btn5);
             this.ControlMenu.Controls.Add(this.btn4);
             this.ControlMenu.Controls.Add(this.btn3);
             this.ControlMenu.Controls.Add(this.btn2);
@@ -70,23 +68,6 @@
             this.SidePanel.Size = new System.Drawing.Size(17, 60);
             this.SidePanel.TabIndex = 1;
             // 
-            // btn5
-            // 
-            this.btn5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn5.FlatAppearance.BorderSize = 0;
-            this.btn5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn5.Font = new System.Drawing.Font("Segoe Script", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn5.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btn5.Location = new System.Drawing.Point(0, 330);
-            this.btn5.Name = "btn5";
-            this.btn5.Size = new System.Drawing.Size(250, 60);
-            this.btn5.TabIndex = 5;
-            this.btn5.Text = "5 функция";
-            this.btn5.UseVisualStyleBackColor = true;
-            this.btn5.Click += new System.EventHandler(this.btn5_Click);
-            // 
             // btn4
             // 
             this.btn4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -94,13 +75,13 @@
             this.btn4.Dock = System.Windows.Forms.DockStyle.Top;
             this.btn4.FlatAppearance.BorderSize = 0;
             this.btn4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn4.Font = new System.Drawing.Font("Segoe Script", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn4.Font = new System.Drawing.Font("Segoe Script", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btn4.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.btn4.Location = new System.Drawing.Point(0, 270);
             this.btn4.Name = "btn4";
-            this.btn4.Size = new System.Drawing.Size(250, 60);
+            this.btn4.Size = new System.Drawing.Size(250, 113);
             this.btn4.TabIndex = 4;
-            this.btn4.Text = "4 функция";
+            this.btn4.Text = "Циклы с парамтером";
             this.btn4.UseVisualStyleBackColor = true;
             this.btn4.Click += new System.EventHandler(this.btn4_Click);
             // 
@@ -117,7 +98,7 @@
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(250, 60);
             this.btn3.TabIndex = 3;
-            this.btn3.Text = "3 функция";
+            this.btn3.Text = "Switch | Case";
             this.btn3.UseVisualStyleBackColor = true;
             this.btn3.Click += new System.EventHandler(this.btn3_Click);
             // 
@@ -154,6 +135,17 @@
             this.btn1.Text = "Линия";
             this.btn1.UseVisualStyleBackColor = true;
             this.btn1.Click += new System.EventHandler(this.btn1_Click);
+            // 
+            // LogoPanel
+            // 
+            this.LogoPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
+            this.LogoPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("LogoPanel.BackgroundImage")));
+            this.LogoPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.LogoPanel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.LogoPanel.Location = new System.Drawing.Point(0, 0);
+            this.LogoPanel.Name = "LogoPanel";
+            this.LogoPanel.Size = new System.Drawing.Size(250, 90);
+            this.LogoPanel.TabIndex = 0;
             // 
             // MainDataWindow
             // 
@@ -196,17 +188,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Для начала работы программы,";
             // 
-            // LogoPanel
-            // 
-            this.LogoPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
-            this.LogoPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("LogoPanel.BackgroundImage")));
-            this.LogoPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.LogoPanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.LogoPanel.Location = new System.Drawing.Point(0, 0);
-            this.LogoPanel.Name = "LogoPanel";
-            this.LogoPanel.Size = new System.Drawing.Size(250, 90);
-            this.LogoPanel.TabIndex = 0;
-            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -220,7 +201,7 @@
             this.Name = "MainMenu";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "РЕШЕНИЕ ЗАДАЧ ЛИНЕЙНОГО АЛГОРИТМА";
+            this.Text = "РЕШЕНИЕ ЗАДАЧ ПО РАЗНЫМ ТЕМАМ";
             this.TopMost = true;
             this.ControlMenu.ResumeLayout(false);
             this.MainDataWindow.ResumeLayout(false);
@@ -235,7 +216,6 @@
         private System.Windows.Forms.Panel ControlMenu;
         private System.Windows.Forms.Panel LogoPanel;
         private System.Windows.Forms.Button btn1;
-        private System.Windows.Forms.Button btn5;
         private System.Windows.Forms.Button btn4;
         private System.Windows.Forms.Button btn3;
         private System.Windows.Forms.Button btn2;

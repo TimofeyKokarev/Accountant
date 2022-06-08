@@ -22,13 +22,13 @@ namespace Кокарев_формы.forms
             double x,y=0;
             x = Convert.ToDouble(textBox1.Text);
             if (x >=1) 
-                y = Math.Log10(x);
+                y = Math.Log(x);
             if (x <= 0)
                 y = Math.Sqrt(4 + (Math.Pow(x, 2)));
             if (0<x && x<1)
                 y = Math.Pow(Math.E, -3 * x);
             listBox1.Items.Add("При x = " + x);
-            listBox1.Items.Add(" у =" + y);
+            listBox1.Items.Add($" у = {y:f3}");
         }
 
         private void btnexit_Click(object sender, EventArgs e)

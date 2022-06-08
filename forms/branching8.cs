@@ -16,5 +16,20 @@ namespace Кокарев_формы.forms
         {
             InitializeComponent();
         }
+
+        private void checkbutton_Click(object sender, EventArgs e)
+        {
+            double x, y, R;
+            x = Convert.ToDouble(textBox1.Text);
+            y = Convert.ToDouble(textBox2.Text);
+            R = Convert.ToDouble(textBox3.Text);
+            if (Math.Sqrt(x*x+y*y)<R) MessageBox.Show("Точка принадлежит окружности");
+            else MessageBox.Show("Точка не принадлежит окружности");
+        }
+
+        private void btnexit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
