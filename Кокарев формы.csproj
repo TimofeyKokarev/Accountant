@@ -12,6 +12,8 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,6 +35,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MaterialDesignColors, Version=2.0.6.0, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
+      <HintPath>packages\MaterialDesignColors.2.0.6\lib\net452\MaterialDesignColors.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignThemes.Wpf, Version=4.5.0.0, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
+      <HintPath>packages\MaterialDesignThemes.4.5.0\lib\net452\MaterialDesignThemes.Wpf.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,6 +54,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Autorithation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autorithation.Designer.cs">
+      <DependentUpon>Autorithation.cs</DependentUpon>
+    </Compile>
     <Compile Include="forms\branching1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -148,6 +162,12 @@
     <Compile Include="forms\CyclesMain.Designer.cs">
       <DependentUpon>CyclesMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="forms\Error.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Error.Designer.cs">
+      <DependentUpon>Error.cs</DependentUpon>
+    </Compile>
     <Compile Include="forms\function1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -183,6 +203,12 @@
     </Compile>
     <Compile Include="forms\LinearMain.Designer.cs">
       <DependentUpon>LinearMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Success.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Success.Designer.cs">
+      <DependentUpon>Success.cs</DependentUpon>
     </Compile>
     <Compile Include="forms\switchcase1.cs">
       <SubType>Form</SubType>
@@ -234,6 +260,9 @@
     <Compile Include="forms\SwitchCaseMain.Designer.cs">
       <DependentUpon>SwitchCaseMain.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Autorithation.resx">
+      <DependentUpon>Autorithation.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="forms\branching1.resx">
       <DependentUpon>branching1.cs</DependentUpon>
     </EmbeddedResource>
@@ -285,6 +314,9 @@
     <EmbeddedResource Include="forms\CyclesMain.resx">
       <DependentUpon>CyclesMain.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="forms\Error.resx">
+      <DependentUpon>Error.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="forms\function1.resx">
       <DependentUpon>function1.cs</DependentUpon>
     </EmbeddedResource>
@@ -305,6 +337,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="forms\LinearMain.resx">
       <DependentUpon>LinearMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Success.resx">
+      <DependentUpon>Success.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\switchcase1.resx">
       <DependentUpon>switchcase1.cs</DependentUpon>
@@ -332,6 +367,7 @@
     <EmbeddedResource Include="forms\SwitchCaseMain.resx">
       <DependentUpon>SwitchCaseMain.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -354,13 +390,25 @@
     <Content Include="img\1function.png" />
     <Content Include="img\2function.png" />
     <Content Include="img\3function.png" />
+    <Content Include="img\47565_accept_shield_antivirus_icon.png" />
     <Content Include="img\4function.png" />
     <Content Include="img\5function.png" />
     <Content Include="img\br3.png" />
     <Content Include="img\br4.png" />
+    <Content Include="img\lock.png" />
     <Content Include="img\mainlogo.ico" />
+    <Content Include="img\passwordaccept.png" />
+    <None Include="img\passworderror.png" />
     <Content Include="img\secondarylogo.png" />
+    <Content Include="img\user.png" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="packages\MaterialDesignThemes.4.5.0\build\MaterialDesignThemes.targets" Condition="Exists('packages\MaterialDesignThemes.4.5.0\build\MaterialDesignThemes.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Данный проект ссылается на пакеты NuGet, отсутствующие на этом компьютере. Используйте восстановление пакетов NuGet, чтобы скачать их.  Дополнительную информацию см. по адресу: http://go.microsoft.com/fwlink/?LinkID=322105. Отсутствует следующий файл: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\MaterialDesignThemes.4.5.0\build\MaterialDesignThemes.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\MaterialDesignThemes.4.5.0\build\MaterialDesignThemes.targets'))" />
+  </Target>
 </Project>

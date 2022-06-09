@@ -113,6 +113,26 @@ namespace Кокарев_формы.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap passwordaccept {
+            get {
+                object obj = ResourceManager.GetObject("passwordaccept", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap passworderror {
+            get {
+                object obj = ResourceManager.GetObject("passworderror", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap secondarylogo {
             get {
                 object obj = ResourceManager.GetObject("secondarylogo", resourceCulture);
