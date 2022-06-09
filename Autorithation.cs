@@ -28,8 +28,11 @@ namespace Кокарев_формы
                 forms.Success success = new forms.Success();
                 success.Show();
             }
-            else MessageBox.Show("Логин или пароль введены неверно\nДля повторного ввода нажмите «Ок»");
-            k++;
+            else
+            {
+                MessageBox.Show("Логин или пароль введены неверно\nДля повторного ввода нажмите «Ок»");
+                k++;
+            }
             if (k >= 3)
             {
                 loginbutton.Visible = false;
