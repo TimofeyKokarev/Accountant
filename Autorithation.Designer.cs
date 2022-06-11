@@ -38,6 +38,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.regbtn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -47,6 +48,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.panel1.Controls.Add(this.regbtn);
             this.panel1.Controls.Add(this.exitbtn);
             this.panel1.Controls.Add(this.loginbutton);
             this.panel1.Controls.Add(this.textBox2);
@@ -57,7 +59,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(484, 561);
+            this.panel1.Size = new System.Drawing.Size(484, 634);
             this.panel1.TabIndex = 0;
             // 
             // exitbtn
@@ -69,7 +71,7 @@
             this.exitbtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Olive;
             this.exitbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.exitbtn.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.exitbtn.Location = new System.Drawing.Point(122, 455);
+            this.exitbtn.Location = new System.Drawing.Point(122, 522);
             this.exitbtn.Name = "exitbtn";
             this.exitbtn.Size = new System.Drawing.Size(218, 53);
             this.exitbtn.TabIndex = 20;
@@ -86,7 +88,7 @@
             this.loginbutton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Olive;
             this.loginbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.loginbutton.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.loginbutton.Location = new System.Drawing.Point(122, 365);
+            this.loginbutton.Location = new System.Drawing.Point(122, 447);
             this.loginbutton.Name = "loginbutton";
             this.loginbutton.Size = new System.Drawing.Size(218, 53);
             this.loginbutton.TabIndex = 19;
@@ -145,9 +147,6 @@
             // 
             // label1
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe Script", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -157,11 +156,28 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Авторизация";
             // 
+            // regbtn
+            // 
+            this.regbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(202)))), ((int)(((byte)(77)))));
+            this.regbtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.regbtn.FlatAppearance.BorderSize = 0;
+            this.regbtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.regbtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Olive;
+            this.regbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.regbtn.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.regbtn.Location = new System.Drawing.Point(122, 378);
+            this.regbtn.Name = "regbtn";
+            this.regbtn.Size = new System.Drawing.Size(218, 53);
+            this.regbtn.TabIndex = 21;
+            this.regbtn.Text = "Зарегистрироваться";
+            this.regbtn.UseVisualStyleBackColor = false;
+            this.regbtn.Click += new System.EventHandler(this.regbtn_Click);
+            // 
             // Autorithation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(484, 561);
+            this.ClientSize = new System.Drawing.Size(484, 634);
             this.Controls.Add(this.panel1);
             this.Name = "Autorithation";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -187,5 +203,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button loginbutton;
         private System.Windows.Forms.Button exitbtn;
+        private System.Windows.Forms.Button regbtn;
     }
 }
